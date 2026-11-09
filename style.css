@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: skyblue;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    padding: 10px;
+}
+
+.ini-sub-tugas {
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+}
+
+.ini-judul-tugas {
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.ini-judul-tugas h2 {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 760px) {
+    .grid {grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width: 1030px) {
+    .grid {grid-template-columns: 1fr 1fr 1fr;}
+}
+
